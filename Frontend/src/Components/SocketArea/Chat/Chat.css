@@ -1,0 +1,231 @@
+.Chat {
+    text-align: center;
+}
+
+.Chat h1 {
+    color: #3498db;
+}
+
+.Chat button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Chat button:hover {
+    background-color: #2980b9;
+}
+
+.Chat form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Chat label {
+    color: #333;
+}
+
+.Chat input[type="text"],
+.Chat select {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Chat input[type="text"]:focus,
+.Chat select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.Chat button[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Chat button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+.Chat>section {
+    background-image: url('https://img.freepik.com/premium-vector/flat-speech-bubles-background_485157-94.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #ddd;
+    height: 465px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.Chat img {
+    height: 45px;
+    width: 45px;
+}
+
+.Chat .textSpan {
+    border-radius: 10px;
+    padding: 7px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
+
+.Chat .currentUser {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Chat .otherUser {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Chat .currentUser .textSpan {
+    max-width: 600px;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.Chat .otherUser .textSpan {
+    max-width: 600px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.Chat .textInput {
+    height: 50px;
+    width: 1250px;
+}
+
+.Chat button:disabled,
+.Chat input:disabled,
+.Chat select:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Chat button:disabled:hover,
+.Chat input:disabled:hover,
+.Chat select:disabled:hover {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.Chat .validationMessage {
+    color: red;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.Chat .systemMessage {
+    position: relative;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    max-width: 20rem;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.Chat .nicknameSpan {
+    color: black;
+}
+
+.Chat button.connectButton {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.Chat button.connectButton:hover {
+    background-color: #27ae60;
+}
+
+.Chat button.disconnectButton {
+    background-color: red;
+    color: #fff;
+}
+
+.Chat button.disconnectButton:hover {
+    background-color: darkred;
+}
+
+.Chat button.sendButton {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.Chat button.sendButton:hover {
+    background-color: #2980b9;
+}
+
+/* ... Your existing CSS ... */
+
+/* Navbar styles */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3498db;
+    padding: 10px;
+}
+
+.Navbar h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navbar li {
+    margin-right: 15px;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.Navbar a:hover {
+    color: #2980b9;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
