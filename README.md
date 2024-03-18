@@ -2,16 +2,6 @@
 
 Dialogic is a real-time chat application built with Node.js, Express.js, React, and TypeScript. It allows users to connect, chat with each other, and exchange messages in real-time.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 Dialogic provides a platform for users to engage in real-time conversations with each other. With its intuitive interface and seamless user experience, Dialogic offers a convenient way to connect and communicate with others.
